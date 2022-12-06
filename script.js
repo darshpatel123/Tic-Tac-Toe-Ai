@@ -367,25 +367,62 @@ diga()
 function horizontal(){
   if (box1act == true&& box2act == true && box3act == true){
     if (box1oc == 0 && box2oc == 0 && box3oc == 0 ){
+      document.getElementById("box1").style.opacity = "1"; 
+      document.getElementById("box2").style.opacity ="1";      
+      document.getElementById("box3").style.opacity ="1";
+      document.getElementById("box1").style.backgroundColor = "white";
+      document.getElementById("box2").style.backgroundColor = "white";
+      document.getElementById("box3").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     else if (box1oc == 1 && box2oc == 1 && box3oc == 1){
+      document.getElementById("box1").style.opacity = "1"; 
+      document.getElementById("box2").style.opacity ="1";      
+      document.getElementById("box3").style.opacity ="1";
+      document.getElementById("box1").style.backgroundColor = "white";
+      document.getElementById("box2").style.backgroundColor = "white";
+      document.getElementById("box3").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
+     
     }
   }
 if (box4act == true&& box5act == true && box6act == true){
     if (box4oc == 0 && box5oc == 0 && box6oc == 0 ){
+      document.getElementById("box4").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box6").style.opacity ="1";
+      document.getElementById("box4").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box6").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     else if (box4oc == 1 && box5oc == 1 && box6oc == 1){
+      document.getElementById("box4").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box6").style.opacity ="1";
+      document.getElementById("box4").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box6").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
   }
 if(box7act == true&& box8act == true && box9act == true){
     if (box7oc == 0 && box8oc == 0 && box9oc == 0 ){
+      document.getElementById("box7").style.opacity = "1"; 
+      document.getElementById("box8").style.opacity ="1";      
+      document.getElementById("box9").style.opacity ="1";
+      document.getElementById("box7").style.backgroundColor = "white";
+      document.getElementById("box8").style.backgroundColor = "white";
+      document.getElementById("box9").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     else if (box7oc == 1 && box8oc == 1 && box9oc == 1){
+      document.getElementById("box7").style.opacity = "1"; 
+      document.getElementById("box8").style.opacity ="1";      
+      document.getElementById("box9").style.opacity ="1";
+      document.getElementById("box7").style.backgroundColor = "white";
+      document.getElementById("box8").style.backgroundColor = "white";
+      document.getElementById("box9").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
   }
@@ -396,25 +433,62 @@ if(box7act == true&& box8act == true && box9act == true){
 function vertical(){
   if (box1act == true && box4act == true && box7act == true){
     if (box1oc == 0 && box4oc == 0 && box7oc == 0 ){
+      document.getElementById("box1").style.opacity = "1"; 
+      document.getElementById("box4").style.opacity ="1";      
+      document.getElementById("box7").style.opacity ="1";
+      document.getElementById("box1").style.backgroundColor = "white";
+      document.getElementById("box4").style.backgroundColor = "white";
+      document.getElementById("box7").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     if (box1oc == 1 && box4oc == 1 && box7oc == 1 ){
+      document.getElementById("box1").style.opacity = "1"; 
+      document.getElementById("box4").style.opacity ="1";      
+      document.getElementById("box7").style.opacity ="1";
+      document.getElementById("box1").style.backgroundColor = "white";
+      document.getElementById("box4").style.backgroundColor = "white";
+      document.getElementById("box7").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
+    
     }
   }
   else if (box2act == true && box5act == true && box8act == true){
     if (box2oc == 0 && box5oc == 0 && box8oc == 0 ){
+      document.getElementById("box2").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box8").style.opacity ="1";
+      document.getElementById("box2").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box8").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     if (box2oc == 1 && box5oc == 0 && box8oc == 0){
+      document.getElementById("box2").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box8").style.opacity ="1";
+      document.getElementById("box2").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box8").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
   }
   else if (box3act == true && box6act == true && box9act == true){
     if (box3oc == 0 && box6oc == 0 && box9oc == 0 ){
+      document.getElementById("box3").style.opacity = "1"; 
+      document.getElementById("box6").style.opacity ="1";      
+      document.getElementById("box9").style.opacity ="1";
+      document.getElementById("box3").style.backgroundColor = "white";
+      document.getElementById("box6").style.backgroundColor = "white";
+      document.getElementById("box9").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     if (box3oc == 1 && box6oc == 1  && box9oc == 1 ){
+      document.getElementById("box3").style.opacity = "1"; 
+      document.getElementById("box6").style.opacity ="1";      
+      document.getElementById("box9").style.opacity ="1";
+      document.getElementById("box3").style.backgroundColor = "white";
+      document.getElementById("box6").style.backgroundColor = "white";
+      document.getElementById("box9").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
   }
@@ -427,18 +501,42 @@ function diga(){
   
   if (box1act == true && box5act == true && box9act == true){
     if (box1oc == 0 && box5oc == 0 && box9oc == 0 ){
+      document.getElementById("box1").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box9").style.opacity ="1";
+      document.getElementById("box1").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box9").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     if (box1oc == 1 && box5oc == 1 && box9oc == 1){
+      document.getElementById("box1").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box9").style.opacity ="1";
+      document.getElementById("box1").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box9").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
   }
   
   else if (box3act == true && box5act == true && box7act == true){
     if (box3oc == 0 && box5oc == 0 && box7oc == 0 ){
+      document.getElementById("box3").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box7").style.opacity ="1";
+      document.getElementById("box3").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box7").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Win</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
     if (box3oc == 1 && box5oc == 1 && box7oc == 1 ){
+      document.getElementById("box3").style.opacity = "1"; 
+      document.getElementById("box5").style.opacity ="1";      
+      document.getElementById("box7").style.opacity ="1";
+      document.getElementById("box3").style.backgroundColor = "white";
+      document.getElementById("box5").style.backgroundColor = "white";
+      document.getElementById("box7").style.backgroundColor = "white";
       document.getElementById("whosemove").innerHTML = "Tic Tac Toe AI (Easy): <b>You Lost</b> <button btn btn-success onclick='Reset()'> Reset</button> ";
     }
    

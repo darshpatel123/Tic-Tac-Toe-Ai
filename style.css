@@ -24,11 +24,9 @@ body{
 }
 
 span{
-    transition: 0.5s;
-    opacity: 0.8;
     background-color: gray;
 }
-span:hover{
+div:hover{
     opacity: 1;
 }
 button{
